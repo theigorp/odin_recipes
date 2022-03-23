@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #F48668;
+    background-color: #F5DBCB;
 }
 
 h1 {
@@ -9,7 +9,27 @@ h1 {
 
 #logo {
     display: flex;
-    width: 450px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
+}
+
+ul {
+    margin: 100px;
+    position: fixed;
+    left: 537px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.home-list:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: 25px;
 }
