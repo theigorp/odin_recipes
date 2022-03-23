@@ -15,23 +15,27 @@ h1 {
 }
 
 ul {
-    margin: 100px;
     position: fixed;
-    left: 545px;
+    left: 645px;
     text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-top: 100px;
     list-style-type: none;
-}
-
-.home-list:hover {
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
 }
 
 li {
     font-size: 25px;
+}
+
+.home-list:hover {
+    text-decoration: underline;
+    /* color: #e0ab8a; use this color for hover color of background*/
+    color: #ED7B84;
+}
+
+a {
+    text-decoration: none;
 }
 
 footer {
