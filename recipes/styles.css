@@ -12,3 +12,68 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+#chicken {
+    height: 425px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: smaller;
+}
+
+.container {
+    width: 40%;
+    margin-top: 100px;
+    position: relative;
+    left: 30%;
+    text-align: justify;
+}
+
+ul li::marker {
+    color: #ED7B84;
+}
+
+ol li::marker {
+    color: #ed7b84;
+    font-size: x-large;
+}
+
+h2, h3 {
+    color: #ED7B84;
+}
+
+.buttons {
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.buttons:nth-of-type(1) {
+    margin-top: 150px;
+    background-color: #3ea6f6;
+    transition: all 0.2s ease-in;
+
+}
+
+.buttons:nth-of-type(1):hover {
+    background-color: #008BF8;
+}
+
+.buttons:nth-of-type(2) {
+    margin-bottom: 100px;
+    background-color: #7EB77F;
+}
+
+.buttons:nth-of-type(2):hover {
+    background-color: #75cf76;
+    transition: all 0.2s ease-in;
+}
