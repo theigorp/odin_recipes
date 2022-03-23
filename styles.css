@@ -17,7 +17,7 @@ h1 {
 ul {
     margin: 100px;
     position: fixed;
-    left: 537px;
+    left: 545px;
     text-align: center;
     list-style-type: none;
 }
@@ -32,4 +32,14 @@ a {
 
 li {
     font-size: 25px;
+}
+
+footer {
+    font-size: xx-small;
+}
+
+#footer-text {
+    position: fixed;
+    top: 720px;
+    left: 1350px;
 }
