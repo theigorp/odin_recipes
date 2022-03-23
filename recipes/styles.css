@@ -1,0 +1,15 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5DBCB;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
