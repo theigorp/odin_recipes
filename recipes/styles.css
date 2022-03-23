@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #logo {
     display: flex;
     width: 100px;
